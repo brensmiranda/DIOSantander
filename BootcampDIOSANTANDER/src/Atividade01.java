@@ -1,21 +1,22 @@
-
+//
 import java.util.Scanner;
 public class Atividade01 {
     public static void main(String[] args){
         Scanner entrada = new Scanner(System.in);
-        int numConta;
-        String numAgencia;
-        String nomeCliente;
-        double saldo;
 
-        numConta = entrada.nextInt();
-        numAgencia = entrada.next();
-        nomeCliente = entrada.next();
-        saldo = entrada.nextDouble();
+        System.out.println("informe seu nome: ");
+        String nomeCliente = entrada.nextLine();
+        System.out.println("Informe seu o numero da Conta: ");
+        int numeroConta = entrada.nextInt();
+        entrada.nextLine();
+        System.out.println("Informe o número da Agência: ");
+        String numeroAgencia = entrada.nextLine();
+        System.out.println("Saldo: ");
+        double saldo = entrada.nextDouble();
 
         System.out.println("Nome: " + nomeCliente);
-        System.out.println("Conta: " + numConta);
-        System.out.println("Agência: " + numAgencia);
+        System.out.println("Conta: " + numeroConta);
+        System.out.println("Agência: " + numeroAgencia);
         System.out.println("Saldo: " + saldo);
 
         entrada.close();
