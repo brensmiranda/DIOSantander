@@ -1,3 +1,6 @@
+//atividade "complicada" de fazer sem a estruturação do POO, fiquei incomodada com a poluição e desorganização do código, mas foi boa para fixar os conceitos que já vinha estudando.
+
+
 package AtividadesDIO;
 import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;

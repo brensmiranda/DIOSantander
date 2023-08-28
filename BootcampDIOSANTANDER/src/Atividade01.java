@@ -8,7 +8,7 @@ public class Atividade01 {
         String nomeCliente = entrada.nextLine();
         System.out.println("Informe seu o numero da Conta: ");
         int numeroConta = entrada.nextInt();
-        entrada.nextLine();
+        entrada.nextLine(); //buffer de entrada.
         System.out.println("Informe o número da Agência: ");
         String numeroAgencia = entrada.nextLine();
         System.out.println("Saldo: ");
